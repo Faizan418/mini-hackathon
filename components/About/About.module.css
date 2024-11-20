@@ -57,6 +57,15 @@
         padding: 20px;
         text-align: center;
     }
+    .heading_one{
+        margin-top: 20px;
+    }
+    .heading_two{
+        margin-top: 20px;
+    }
+    .heading_three{
+        margin-top: 30px;
+    }
 }
 @media(max-width: 1500px){
 
