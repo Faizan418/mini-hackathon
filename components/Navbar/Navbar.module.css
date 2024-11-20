@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ga+Maamli&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(227, 255, 247);
+    padding: 20px 70px;
+    border-bottom: 1px solid rgb(37, 36, 36);
+    align-items: center;
+}
+.brand_n_div{
+    /* border: 1px solid black; */
+    padding: 5px;
+    font-family: "Ga Maamli", sans-serif;
+    /* font-weight: 200; */
+    font-style: normal;
+    font-size: 35px;
+    color: #457B9D;
+
+}
+.ul_div{
+    display: flex;
+    gap: 15px;
+    /* border: 1px solid black; */
+    padding: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;
+    color: #3b3a3a;
+}
+
+.li_{
+
+    padding: 5px;
+}
+.li_:hover{
+    /* color: black; */
+    color: #457B9D;
+    transition: 0.5s;
+    text-decoration-line: underline;
+}
+.li_:active{
+    /* color: black; */
+    color: #457B9D;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+  }
+
+  @media (max-width: 768px) {
+    .ul_div {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 98px;
+      right: 0px;
+      width: 100%;
+      background-color: #00000036;
+      /* border: 1px solid white; */
+      backdrop-filter: blur(10px);
+      padding: 10px;
+    }
+    .li_{
+        padding-left: 20px;
+    }
+  
+    .ul_div.show_menu {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  @media (max-width: 500px){
+    .nav_bar{
+        padding: 20px 30px;
+    }
+  }
