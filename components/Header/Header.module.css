@@ -12,8 +12,9 @@
 }
 
 .div_one{
-    /* border: 1px solid black; */
+    padding-left: 50px;
     height: 100%;
+    /* border: 1px solid black; */
     width: 50%;
     align-content: center;
 }
@@ -46,6 +47,7 @@
     font-size: 15px;
 }
 .btn1{
+    transition: 0.6s;
     border: 1px solid #457B9D;
     background: #457B9D;
     color: white;
@@ -53,6 +55,7 @@
     padding: 10px 40px;
     /* display: flex; */
     text-align: center;
+
 }
 
 .btn1:hover{
@@ -64,6 +67,7 @@
     background: #457B9D;
 }
 .btn2{
+    transition: 0.6s;
     border: 1px solid #457B9D;
     color: #457B9D;
     border-radius: 4px;
@@ -97,22 +101,24 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
+        padding-left: 0px;
     }
     .div_two{
         margin-top: 30px;
         width: 100%;
     }
-    .btn_div{
-        display: flex;
-        justify-content: center;
-        padding: 20px;
+    /* .btn_div{ */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* padding: 20px; */
    
-    }
+    /* } */
 }
 @media (max-width: 768px){
     .btn_div{
         flex-direction: column;
         padding: 25px;
+        /* width: 100%; */
         text-align: center;
     }
     .dbtn{

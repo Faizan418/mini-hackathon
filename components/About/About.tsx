@@ -9,7 +9,7 @@ const About = () => {
 
 
         <div className={styles.div_one}>
-            <img className={styles.images} src="/images/about.png" alt="" />
+            <img className={styles.images} src="/images/about.png" alt="picture" />
         </div>
         <div className={styles.div_two}>
             <h3 className={styles.heading_one}>About</h3>

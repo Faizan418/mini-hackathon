@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './Skills.module.css'
 
 const Skills = () => {
   return (
-    <div>
+    <div className={styles.containar}>
 
-        <h1>hi</h1>
+        <div className={styles.main}></div>  
       
     </div>
   )
