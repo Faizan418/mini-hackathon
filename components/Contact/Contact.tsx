@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import Link from "next/link";
-import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
