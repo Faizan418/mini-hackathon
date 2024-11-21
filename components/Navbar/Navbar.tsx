@@ -20,7 +20,7 @@ const Navbar = () => {
                 <ul className={`${styles.ul_div} ${menuVisible ? styles.show_menu : ''}`}>
                     <Link className={styles.Links_} href={'#Home'}><li className={styles.li_}>Home</li></Link>
                     <Link className={styles.Links_} href={'#About'}><li className={styles.li_}>About</li></Link>
-                    <Link className={styles.Links_} href={'#'}><li className={styles.li_}>Skill</li></Link>
+                    <Link className={styles.Links_} href={'#Skill'}><li className={styles.li_}>Skill</li></Link>
                     <Link className={styles.Links_} href={'#'}><li className={styles.li_}>Project</li></Link>
                     <Link className={styles.Links_} href={'#'}><li className={styles.li_}>Contact</li></Link>
                 </ul> 

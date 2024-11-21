@@ -3,7 +3,7 @@
     height: 100vh;
     align-content: center;
     background-color: rgb(229, 252, 245);
-    padding: 0px 70px;
+    padding: 0px 100px;
 }
 .main_div{
     /* border: 1px solid black; */
@@ -12,7 +12,7 @@
 }
 
 .div_one{
-    padding-left: 50px;
+    /* padding-left: 50px; */
     height: 100%;
     /* border: 1px solid black; */
     width: 50%;
@@ -80,7 +80,7 @@
     /* border: 1px solid black; */
     height: 100%;
     width: 50%;
-    justify-content: center;
+    justify-content: right;
     /* align-content: center; */
     align-items: center;
     display: flex;
@@ -107,12 +107,12 @@
         margin-top: 30px;
         width: 100%;
     }
-    /* .btn_div{ */
-        /* display: flex; */
-        /* justify-content: center; */
-        /* padding: 20px; */
+    .btn_div{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
    
-    /* } */
+    }
 }
 @media (max-width: 768px){
     .btn_div{

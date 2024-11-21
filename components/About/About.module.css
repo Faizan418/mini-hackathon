@@ -1,16 +1,16 @@
 .containar{
     border: 1px solid black;
     height: 100vh;
-    padding: 20px 70px;
-
 }
 .main{
     /* border: 1px solid black; */
     height: 100%;
     display: flex;
+    /* padding: 10px 40px; */
 }
 .div_one{
     /* border: 1px solid black; */
+    /* padding: 20px; */
     flex: 1;
     display: flex;
     align-items: center;
@@ -19,6 +19,7 @@
 }
 .div_two{
     /* border: 1px solid black; */
+    padding: 20px;
     flex: 1;
     align-content: center;
 }
