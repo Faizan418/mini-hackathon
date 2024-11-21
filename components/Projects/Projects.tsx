@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Project.module.css";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -20,6 +21,7 @@ const Projects = () => {
               <p className={styles.img_heading_two}>
                 This is my personal Portfolio create with next.js.
               </p>
+              <Link href={'https://personal-portfolio-ashy-three-74.vercel.app/'} target="_blank"> <button className={styles.view_btn} type="button">View Live</button></Link>
             </div>
           </div>
           <div className={styles.cards}>
@@ -33,6 +35,7 @@ const Projects = () => {
               <p className={styles.img_heading_two}>
                 Multi pages web clone create with next.js.
               </p>
+              <Link href={'https://mile2-assignment-css.vercel.app/'} target="_blank"> <button className={styles.view_btn} type="button">View Live</button></Link>
             </div>
           </div>
           <div className={styles.cards}>
@@ -46,6 +49,7 @@ const Projects = () => {
               <p className={styles.img_heading_two}>
                 E-commerce web clone create with next.js.
               </p>
+              <Link href={'https://mile3-project.vercel.app/'} target="_blank"> <button className={styles.view_btn} type="button">View Live</button></Link>
             </div>
           </div>
         </div>
