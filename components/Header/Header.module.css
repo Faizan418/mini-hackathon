@@ -81,7 +81,7 @@
     height: 100%;
     width: 50%;
     justify-content: right;
-    /* align-content: center; */
+    align-content: center;
     align-items: center;
     display: flex;
 }
@@ -106,6 +106,7 @@
     .div_two{
         margin-top: 30px;
         width: 100%;
+        justify-content: center;
     }
     .btn_div{
         display: flex;
