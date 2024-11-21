@@ -14,21 +14,21 @@ const Projects = () => {
 
           <div className={styles.cards}>
             <img className={styles.imges} src="/images/portfolio_img.PNG" alt="project-1" />
-            <div>
+            <div className={styles.img_info}>
             <h3 className={styles.img_heading_one}>Portfolio</h3>
             <p className={styles.img_heading_two}>This is my personal Portfolio create with next.js.</p>
             </div>
           </div>
           <div className={styles.cards}>
             <img className={styles.imges} src="/images/multi_pages_img.PNG" alt="project-2" />
-            <div>
+            <div className={styles.img_info}>
             <h3 className={styles.img_heading_one}>Multi Pages</h3>
             <p className={styles.img_heading_two}>Multi pages web clone create with next.js.</p>
             </div>
           </div>
           <div className={styles.cards}>
             <img className={styles.imges} src="/images/e-commerce_img.PNG" alt="project-3" />
-            <div>
+            <div className={styles.img_info}>
             <h3 className={styles.img_heading_one}>E-commerce</h3>
             <p className={styles.img_heading_two}>E-commerce web clone create with next.js.</p>
             </div>
