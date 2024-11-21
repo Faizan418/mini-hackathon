@@ -1,73 +1,72 @@
-.containar{
-    /* border: 1px solid black; */
-    height: 100vh;
+.containar {
+  /* border: 1px solid black; */
+  height: 100vh;
 }
-.main{
-    /* border: 1px solid black; */
+.main {
+  /* border: 1px solid black; */
+  height: 100%;
+  display: flex;
+  /* padding: 10px 40px; */
+}
+.div_one {
+  /* border: 1px solid black; */
+  /* padding: 20px; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.div_two {
+  /* border: 1px solid black; */
+  padding: 20px;
+  flex: 1;
+  align-content: center;
+}
+.heading_one {
+  color: #457b9d;
+  font-weight: 600;
+  font-size: larger;
+}
+.heading_two {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.heading_three {
+  font-size: small;
+  font-weight: 600;
+  color: rgb(80, 80, 80);
+  text-justify: inter-cluster;
+}
+@media (max-width: 1065px) {
+  .containar {
     height: 100%;
-    display: flex;
-    /* padding: 10px 40px; */
-}
-.div_one{
-    /* border: 1px solid black; */
-    /* padding: 20px; */
-    flex: 1;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-.div_two{
-    /* border: 1px solid black; */
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .div_one {
+    flex-basis: 100%;
     padding: 20px;
-    flex: 1;
-    align-content: center;
+  }
+  .div_two {
+    flex-basis: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .heading_one {
+    margin-top: 20px;
+  }
+  .heading_two {
+    margin-top: 20px;
+  }
+  .heading_three {
+    margin-top: 30px;
+  }
 }
-.heading_one{
-    color: #457B9D;
-    font-weight: 600;
-    font-size: larger;
-}
-.heading_two{
-    font-size: 38px;
-    font-weight: 600;
-}
-
-.heading_three{
-    font-size: small;
-    font-weight: 600;
-    color: rgb(80, 80, 80);
-    text-justify: inter-cluster;
-}
-@media(max-width: 1065px){
-    .containar{
-        height: 100%;
-    }
-    .main{
-        flex-direction: column-reverse;
-    }
-    .div_one{
-        flex-basis: 100%;
-        padding: 20px;
-    }
-    .div_two{
-        flex-basis: 100%;
-        padding: 20px;
-        text-align: center;
-    }
-    .heading_one{
-        margin-top: 20px;
-    }
-    .heading_two{
-        margin-top: 20px;
-    }
-    .heading_three{
-        margin-top: 30px;
-    }
-}
-@media(max-width: 1500px){
-
-    .containar{
-        padding: 20px 30px;
-    }
+@media (max-width: 1500px) {
+  .containar {
+    padding: 20px 30px;
+  }
 }
